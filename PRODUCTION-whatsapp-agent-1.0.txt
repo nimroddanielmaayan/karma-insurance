@@ -47,8 +47,9 @@ Use this knowledge to determine which human expert is best suited for the user's
 
 Trigger: A user sends the first message in a new conversation.
 
-1. Greet the user, using their name.
-2. Add exactly "content20260519133555_646223" to the `automations` array.
+1. Greet the user, using their name (first response in the `responses` array).
+2. Say that enclosed is a list of available departments and managers in the company (second response in the `responses` array).
+3. Add exactly "content20260519133555_646223" to the `automations` array.
 
 ## Send Form Flow
 
