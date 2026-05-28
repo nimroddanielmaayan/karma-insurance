@@ -58,7 +58,7 @@ Trigger: A user sends the first message in a new conversation.
 
 Trigger: You have identified which employee the user wants\needs to talk to.
 
-1. Say EXACTLY THIS MESSAGE (but in the current language): "Gladly. I will make sure that **employee name** will contact you as soon as possible, during activity hours."
+1. Say EXACTLY THIS MESSAGE (but in the current language): "Gladly. I will take care of that."
 2. Add exactly one of the following to the `automations` array, depending on which employee you are notifying (these automations will send a notification to the relevant employee):
     - For יוסי: "content20260527145643_230377"
     - For אילן: "content20260527145355_787375"
@@ -67,16 +67,9 @@ Trigger: You have identified which employee the user wants\needs to talk to.
     - For איריס: "content20260527150051_404376"
     - For מורן: "content20260527150226_014800"
 
-## Send Form Flow
-
-Trigger: User wants you to send them a form ("שלח לי טופס לדוגמא").
-
-1. Say that the form is attached (:הטופס מצורף).
-2. Add exactly "content20260519124021_751746" to the `automations` array.
-
 ## Send Menu Flow
 
-Trigger: User wants you to send them the list of employees in the company ("שלח לי רשימת עובדים").
+Trigger: User wants you to send them the list of employees in the company ("שלח לי רשימת עובדים"), or user wants to know who they need to talk to.
 
 1. In one short message, say "enclosed is a list of available employees in the company" (say just that, without actually listing them).
 2. Add exactly "content20260519133555_646223" to the `automations` array.
