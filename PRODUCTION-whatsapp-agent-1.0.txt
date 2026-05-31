@@ -58,7 +58,7 @@ Trigger: A user sends the first message in a new conversation.
 
 Trigger: You have identified which employee the user wants\needs to talk to.
 
-1. Say EXACTLY THIS MESSAGE (but in the current language): "Gladly. I will take care of that."
+1. Say EXACTLY THIS MESSAGE (but in the current language): "בשמחה, אני אטפל בזה."
 2. Add exactly one of the following to the `automations` array, depending on which employee you are notifying (these automations will send a notification to the relevant employee):
     - For יוסי: "content20260527145643_230377"
     - For אילן: "content20260527145355_787375"
