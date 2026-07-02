@@ -1,0 +1,18 @@
+RAG store (fileSearchStores):
+
+name: fileSearchStores/karma-insurance-rag-store-t-d303bdqyy5dx
+displayName:Karma Insurance - RAG Store (testing)
+createTime: 2026-07-01T16:04:12.175480Z
+updateTime: 2026-07-01T16:04:12.175480Z
+activeDocumentsCount: 1
+sizeBytes: 8014
+embeddingModel: models/gemini-embedding-001
+
+
+RAG Files:
+
+@type: type.googleapis.com/google.ai.generativelanguage.v1main.UploadToFileSearchStoreResponse
+parent: fileSearchStores/karma-insurance-rag-store-t-d303bdqyy5dx
+documentName: fileSearchStores/karma-insurance-rag-store-t-d303bdqyy5dx/documents/karma-insurance-rag-data-v3-8suf45mhpfg3
+mimeType: text/plain
+sizeBytes: 8014
